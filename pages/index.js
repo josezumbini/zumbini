@@ -5,7 +5,19 @@ import Footer from '../components/Footer';
 import FotoFundoSection from '../components/FotoFundoSection';
 import NomeLinks from '../components/NomeLinks';
 import SobreMim from '../components/SobreMim';
+import EspacoLeitor from '../components/EspacoLeitor';
+import SiteEmConstrucao from '../components/SiteEmConstrucao';
 
+function Home() {
+    return (
+        <div>
+            <SiteEmConstrucao />
+        </div>
+    )
+}
+
+
+/*
 function Home() {
     return (
         <div>
@@ -13,9 +25,11 @@ function Home() {
             <FotoFundoSection />
             <NomeLinks />
             <SobreMim />
+            <EspacoLeitor />
             <Footer />
         </div>
     )
 }
+*/
 
 export default Home
